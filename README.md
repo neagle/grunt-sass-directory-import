@@ -12,6 +12,8 @@ Note: this plugin does not include non-partials, or `*.scss` files not prefixed 
 
 You can read more in [my original blog post](http://nateeagle.com/2013/03/30/import-a-whole-directory-with-sass-using-grunt/).
 
+**Note:** If you're not Grunt-oriented, there's actually a more full-featured alternative available as a ruby gem: [Chris Eppstein's Sass Globbing](https://github.com/chriseppstein/sass-globbing).
+
 ## Getting Started
 This plugin requires Grunt `~0.4.1`
 

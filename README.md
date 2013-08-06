@@ -32,6 +32,8 @@ grunt.loadNpmTasks('grunt-sass-directory-import');
 ### Overview
 In your project's Gruntfile, add a section named `sass_directory_import` to the data object passed into `grunt.initConfig()`.
 
+**Important:** This should come before your Compass task, or whatever task compiles your `*.scss` files.
+
 ```js
 grunt.initConfig({
   sass_directory_import: {

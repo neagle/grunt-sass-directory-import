@@ -16,7 +16,7 @@ module.exports = function(grunt) {
 	grunt.registerMultiTask(
 		'sass_directory_import',
 		'Include all the .scss files in a directory by including a ' +
-		'dynamically maintained _all.scss file.',
+		'dynamically maintained _*.scss file.',
 		function () {
 			var files = this.filesSrc;
 

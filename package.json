@@ -1,6 +1,6 @@
 {
   "name": "grunt-sass-directory-import",
-  "description": "Include all the .scss files in a directory by including a dynamically maintained _all.scss file.",
+  "description": "Include all the .scss files in a directory by including a dynamically maintained _*.scss file.",
   "version": "0.1.0",
   "homepage": "https://github.com/neagle/grunt-sass-directory-import",
   "author": {

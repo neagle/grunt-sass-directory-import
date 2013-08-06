@@ -1,0 +1,44 @@
+{
+  "name": "grunt-sass-directory-import",
+  "description": "Include all the .scss files in a directory by including a dynamically maintained _all.scss file.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/neagle/grunt-sass-directory-import",
+  "author": {
+    "name": "Nate Eagle",
+    "email": "nate@nateeagle.com",
+    "url": "http://nateeagle.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/neagle/grunt-sass-directory-import.git"
+  },
+  "bugs": {
+    "url": "https://github.com/neagle/grunt-sass-directory-import/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/neagle/grunt-sass-directory-import/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-clean": "~0.4.0",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt": "~0.4.1",
+    "grunt-contrib-copy": "~0.4.1"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.1"
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
+}

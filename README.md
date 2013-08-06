@@ -35,10 +35,6 @@ In your project's Gruntfile, add a section named `sass_directory_import` to the 
 ```js
 grunt.initConfig({
   sass_directory_import: {
-    options: {
-      // Set to true if you don't want task information in your grunt output
-      quiet: false
-    },
     your_target: {
       // Target-specific file lists and/or options go here.
       files: {

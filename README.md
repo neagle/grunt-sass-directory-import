@@ -1,8 +1,8 @@
 # grunt-sass-directory-import
 
-> Include all the _.scss files in a directory by including a dynamically maintained `_.scss` file.
+> Include all the _.scss files in a directory by including a dynamically maintained `_*.scss` file.
 
-In Sass, it's impossible to important a directory full of `_.scss` files ([partials](http://sass-lang.com/docs/yardoc/file.SASS_REFERENCE.html#partials)) automatically, and [this answer from Stack Overflow](http://stackoverflow.com/a/4779432/399077) probably explains why.
+In Sass, it's impossible to important a directory full of `_*.scss` files ([partials](http://sass-lang.com/docs/yardoc/file.SASS_REFERENCE.html#partials)) automatically, and [this answer from Stack Overflow](http://stackoverflow.com/a/4779432/399077) probably explains why.
 
 But for me, source order isn't important: I like to have directories full of partials that should be independent from each other, especially when I'm using a system like SMACSS, where I have things like directories full of modules, mixins, functions, etc.
 

@@ -64,7 +64,6 @@ Find any _all.scss directories in your scss folder and subfolders and add @impor
 ```js
 grunt.initConfig({
   sass_directory_import: {
-    options: {},
     files: {
       src: ['src/scss/**/_all.scss']
     },

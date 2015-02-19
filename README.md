@@ -52,6 +52,12 @@ grunt.initConfig({
 
 ### Options
 
+#### options.quotes
+Type: `String`
+Default value: `double`
+
+This plugin writes `@import` statements, which use quotes. By default, they're double quotes, but maybe you have a linter on your Sass (yay!) and want to use single quotes. Set this to 'single'.
+
 #### options.quiet
 Type: `Boolean`
 Default value: `False`

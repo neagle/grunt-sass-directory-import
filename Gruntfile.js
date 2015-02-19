@@ -47,7 +47,8 @@ module.exports = function(grunt) {
 			},
 			custom_options: {
 				options: {
-					quiet: true
+					quiet: true,
+					quotes: 'single'
 				},
 				files: {
 					src: ['tmp/custom/**/_custom.scss']

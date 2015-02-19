@@ -22,7 +22,8 @@ module.exports = function(grunt) {
 
 			// Merge task-specific and/or target-specific options with these defaults.
 			var options = this.options({
-				quiet: false
+				quiet: false,
+				quotes: 'double'
 			});
 
 			// Iterate over all specified file groups.
@@ -68,7 +69,8 @@ module.exports = function(grunt) {
 						grunt.log.writeln('Importing ' + includeFile.cyan);
 					}
 
-					newFileContents.push('@import "' + includeFile + '";');
+					var quotes = (options.quotes === 'single') ? '\'' : '"';
+					newFileContents.push('@import ' + quotes + includeFile + quotes + ';');
 				});
 
 				newFileContents = newFileContents.join('\n');

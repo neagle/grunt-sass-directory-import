@@ -43,7 +43,7 @@ exports.sass_directory_import = {
 
 		var actual_top = grunt.file.read('tmp/custom/_custom.scss');
 		var actual_sub = grunt.file.read('tmp/custom/subdirectory/_custom.scss');
-		var expected = grunt.file.read('test/expected/_all.scss');
+		var expected = grunt.file.read('test/expected/_custom.scss');
 		test.equal(actual_top, expected, 'top _custom.scss contains expected imports.');
 		test.equal(actual_sub, expected, '_custom.scss in a subdirectory contains expected imports.');
 

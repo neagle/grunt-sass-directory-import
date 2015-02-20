@@ -73,7 +73,7 @@ module.exports = function(grunt) {
 					newFileContents.push('@import ' + quotes + includeFile + quotes + ';');
 				});
 
-				newFileContents = newFileContents.join('\n');
+				newFileContents = newFileContents.join('\n') + '\n\n';
 				grunt.file.write(filepath, newFileContents);
 			});
 		});
